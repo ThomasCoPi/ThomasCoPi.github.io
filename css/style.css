@@ -19,7 +19,7 @@ body {
 header {
 	background-color: #F28705;
 	padding: 1vw;
-	border: solid 1vw #F28705;	
+	border: solid 1vw #F28705;
 	text-align: center;
 }
 
@@ -29,7 +29,7 @@ header:hover {
 header p {
 	font-size: 10vw;
 	text-align-last: center;
-	color: #FFFFFF;	
+	color: #FFFFFF;
 }
 
 /* All Navbar related */
@@ -194,7 +194,7 @@ li img {
 	float: right;
 	margin-right: 12%;
 	width: 36%;
-} 
+}
 
 @media only screen and (max-width: 980px) {
 	.contact {
@@ -406,10 +406,11 @@ footer p {
 .footer_icons {
 	float: none;
 	display: block;
-	width: 219px;
+	width: 218px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
+	padding: 0px;
 }
 
 .footer_icons img:hover {
@@ -419,7 +420,6 @@ footer p {
 .footer_icons li {
 	background-color: transparent;
 	display: inline-block;
-	padding: 0px;
 }
 
 .footer_icons li:hover {
